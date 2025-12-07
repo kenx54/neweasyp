@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y git ffmpeg && rm -rf /var/lib/apt/lists
 WORKDIR /app
 
 # CLONA il repository. Questo comando scarica TUTTI i file, incluso requirements.txt.
-RUN git clone https://github.com/nzo66/EasyProxy . 
+RUN git clone https://github.com/kenx54/neweasyp.git . 
 
 # Installa le dipendenze Python.
 RUN pip install --no-cache-dir -r requirements.txt
